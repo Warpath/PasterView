@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasterView">
+        <attr name="image" format="reference"/>
+        <attr name="image_width" format="dimension"/>
+        <attr name="image_height" format="dimension"/>
+        <attr name="push_image" format="reference"/>
+        <attr name="push_image_width" format="dimension"/>
+        <attr name="push_image_height" format="dimension"/>
+        <attr name="top" format="dimension"/>
+        <attr name="left" format="dimension"/>
+        <attr name="centerInParent" format="boolean"/>
+        <attr name="delete_image" format="reference"/>
+        <attr name="delete_image_width" format="dimension"/>
+        <attr name="delete_image_height" format="dimension"/>
+    </declare-styleable>
+
+</resources>

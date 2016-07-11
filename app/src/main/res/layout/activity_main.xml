@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.warpath.pasterview.PasterView.PasterView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:image="@mipmap/bg_topic_detail_header"
+        app:image_width="200dp"
+        app:image_height="150dp"
+        app:left="100dp"
+        app:top="200dp"
+        app:push_image="@mipmap/water_mark_scale_icon"
+        app:push_image_height="30dp"
+        app:push_image_width="30dp"
+        app:delete_image="@mipmap/water_mark_delete_icon"
+        app:delete_image_width="30dp"
+        app:delete_image_height="30dp"
+        >
+    </com.warpath.pasterview.PasterView.PasterView>
+</RelativeLayout>
